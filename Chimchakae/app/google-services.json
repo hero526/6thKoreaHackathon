@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1032795206740",
+    "firebase_url": "https://chimchakae.firebaseio.com",
+    "project_id": "chimchakae",
+    "storage_bucket": "chimchakae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032795206740:android:c3e99477e17c6dfb",
+        "android_client_info": {
+          "package_name": "com.example.chimchakae"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032795206740-muirgplj36p2qhsb15sr8gsq8qc85bkb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv9p1VTgcPOBpuMmKQSg4NlNil7DSaC8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032795206740-muirgplj36p2qhsb15sr8gsq8qc85bkb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
