@@ -1,5 +1,6 @@
 package com.example.chimchakae;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Patterns;
 import android.view.View;
@@ -10,11 +11,19 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.chimchakae.Model.User;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.iid.FirebaseInstanceId;
 
+import java.util.Iterator;
 import java.util.regex.Pattern;
 
 public class SignUpActivity extends AppCompatActivity {
@@ -22,29 +31,57 @@ public class SignUpActivity extends AppCompatActivity {
     // 비밀번호 정규식
     private static final Pattern PASSWORD_PATTERN = Pattern.compile("^[a-zA-Z0-9!@.#$%^&*?_~]{4,16}$");
 
-    // 파이어베이스 인증 객체 생성
     private FirebaseAuth firebaseAuth;
 
-    // 이메일과 비밀번호
+    // Email & Password
     private EditText editTextEmail;
     private EditText editTextPassword;
+    private EditText editTextCarNum;
     private Button signUpButton;
 
     private String email = "";
     private String password = "";
 
+    private FirebaseDatabase firebaseDatabase;
+    private DatabaseReference databaseReference;
+
+    // Firebase Device Token Info
+    private String deviceToken;
+
+    private ValueEventListener checkRegister = new ValueEventListener() {
+        @Override
+        public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+            Iterator<DataSnapshot> child = dataSnapshot.getChildren().iterator();
+            while(child.hasNext()) {
+                if(editTextEmail.getText().toString().equals(child.next().getKey())) {
+                    Toast.makeText(getApplicationContext(), "이미 존재하는 아이디 입니다.", Toast.LENGTH_LONG).show();
+                    databaseReference.removeEventListener(this);
+                    return;
+                }
+            }
+            makeNewId();
+        }
+
+        @Override
+        public void onCancelled(@NonNull DatabaseError databaseError) {
+        }
+    };
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-
-
 
         setContentView(R.layout.activity_sign_up);
 
         // 파이어베이스 인증 객체 선언
         firebaseAuth = FirebaseAuth.getInstance();
+        firebaseDatabase = FirebaseDatabase.getInstance();
+        databaseReference = firebaseDatabase.getReference();
 
+        deviceToken = FirebaseInstanceId.getInstance().getToken();
+
+        editTextCarNum = findViewById(R.id.et_carNum);
         editTextEmail = findViewById(R.id.et_eamil);
         editTextPassword = findViewById(R.id.et_password);
         signUpButton = findViewById(R.id.btn_signUp);
@@ -62,9 +99,11 @@ public class SignUpActivity extends AppCompatActivity {
     public void singUp(View view) {
         email = editTextEmail.getText().toString();
         password = editTextPassword.getText().toString();
-
+        System.out.println("진입");
         if(isValidEmail() && isValidPasswd()) {
             createUser(email, password);
+            // 회원가입 성공 이후 firebase rdb에 정보 upload
+            databaseReference.addListenerForSingleValueEvent(checkRegister);
         }
     }
 
@@ -74,6 +113,7 @@ public class SignUpActivity extends AppCompatActivity {
 
         if(isValidEmail() && isValidPasswd()) {
             loginUser(email, password);
+
         }
     }
 
@@ -112,6 +152,7 @@ public class SignUpActivity extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             // 회원가입 성공
                             Toast.makeText(SignUpActivity.this, R.string.success_signup, Toast.LENGTH_SHORT).show();
+                            startActivity(new Intent(SignUpActivity.this, MainActivity.class));
                         } else {
                             // 회원가입 실패
                             Toast.makeText(SignUpActivity.this, R.string.failed_signup, Toast.LENGTH_SHORT).show();
@@ -120,9 +161,10 @@ public class SignUpActivity extends AppCompatActivity {
                 });
     }
 
+
     // 로그인
-    private void loginUser(String email, String password)
-    {
+    private void loginUser(String email, String password) {
+
         firebaseAuth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
@@ -137,4 +179,15 @@ public class SignUpActivity extends AppCompatActivity {
                     }
                 });
     }
+
+    private void makeNewId() {
+
+        String userId = editTextEmail.getText().toString();
+        String carNum = editTextCarNum.getText().toString();
+        User user = new User(userId, deviceToken, carNum);
+        databaseReference.child("users").push().setValue(user);
+        //Toast.makeText(getApplicationContext(), "Databsase 등록 성공", Toast.LENGTH_SHORT).show();
+    }
+
+
 }
