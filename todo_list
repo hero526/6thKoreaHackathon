@@ -1,0 +1,24 @@
+Sensor - Server
+1. 수위 센서가 물 높이를 측정 V
+2. 일정 수준 이상일 경우 aws서버로 alert 전송 V
+3. aws 서버가 alert를 받기 V
+4. aws 서버가 전체 앱 사용자에게 푸쉬 알림 V
+5. firebase connection, sign up V
+6. firebase 연동 V
+
+server - application, application
+7-1. application sign-up V
+7-2. application sign-in
+8. Carrier usecases
+	8.1 ...
+9. Follower usecases
+	9.1 ...
+10. server가 carrier application에게 carry 해야 하는 follower 차량 번호 전송
+11-1. 전처리된 이미지로 String 추출
+11-2. 해당 번호판인 경우 follower turtlebot follow 기능을 켜도록 메세지 전송
+
+turtlebot
+12. ROS turtlebot 내에서 구동
+13. 운전 기능 구현 V
+14. follow 기능 구현 V
+15. OCR 전처리
