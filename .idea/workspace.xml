@@ -1,0 +1,1358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d890dc89-39cb-49be-ad1f-243d56aa3013" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3-2/데이터베이스/Team11-p2.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/ARDust.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/ARDust.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/ARDust.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/ARDust.xcodeproj/project.xcworkspace/xcuserdata/youngjungoo.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/ARDust.xcodeproj/xcshareddata/xcschemes/ARDust.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/ARDust.xcodeproj/xcuserdata/youngjungoo.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/ARDust.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/ARDust.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/ARDust.xcworkspace/xcuserdata/youngjungoo.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/ARDust/AppDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/ARDust/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/ARDust/Assets.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/ARDust/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/ARDust/Base.lproj/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/ARDust/Extension/ExtensionCLLocationManager.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/ARDust/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/ARDust/MainViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/ARDust/Model/AirPollution/AirData.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/ARDust/Model/AirPollution/AirPollution.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/ARDust/Model/AirPollution/AirPollutionData.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/ARDust/Model/Location/LocationCoordinate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/ARDust/Model/Location/LocationData.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/ARDust/Model/Location/UmdData.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/ARDust/Model/Request/Request.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/ARDust/Model/Request/RequestProtocol.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/ARDustTests/ARDustTests.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/ARDustTests/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/ARDustUITests/ARDustUITests.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/ARDustUITests/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Podfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Podfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Alamofire/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Alamofire/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Alamofire/Source/AFError.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Alamofire/Source/Alamofire.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Alamofire/Source/CachedResponseHandler.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Alamofire/Source/EventMonitor.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Alamofire/Source/HTTPHeaders.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Alamofire/Source/HTTPMethod.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Alamofire/Source/MultipartFormData.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Alamofire/Source/MultipartUpload.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Alamofire/Source/NetworkReachabilityManager.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Alamofire/Source/Notifications.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Alamofire/Source/OperationQueue+Alamofire.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Alamofire/Source/ParameterEncoder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Alamofire/Source/ParameterEncoding.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Alamofire/Source/Protector.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Alamofire/Source/RedirectHandler.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Alamofire/Source/Request.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Alamofire/Source/RequestInterceptor.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Alamofire/Source/RequestTaskMap.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Alamofire/Source/Response.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Alamofire/Source/ResponseSerialization.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Alamofire/Source/Result.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Alamofire/Source/RetryPolicy.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Alamofire/Source/ServerTrustEvaluation.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Alamofire/Source/Session.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Alamofire/Source/SessionStateProvider.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Alamofire/Source/URLConvertible+URLRequestConvertible.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Alamofire/Source/URLRequest+Alamofire.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Alamofire/Source/URLSessionConfiguration+Alamofire.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Alamofire/Source/Validation.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Manifest.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Pods.xcodeproj/xcuserdata/youngjungoo.xcuserdatad/xcschemes/Alamofire.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Pods.xcodeproj/xcuserdata/youngjungoo.xcuserdatad/xcschemes/Pods-ARDust.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Pods.xcodeproj/xcuserdata/youngjungoo.xcuserdatad/xcschemes/Pods-ARDustTests.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Pods.xcodeproj/xcuserdata/youngjungoo.xcuserdatad/xcschemes/Pods-ARDustUITests.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Pods.xcodeproj/xcuserdata/youngjungoo.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Alamofire/Alamofire-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Alamofire/Alamofire-prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Alamofire/Alamofire.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Alamofire/Alamofire.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Alamofire/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Pods-ARDust/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Pods-ARDust/Pods-ARDust-acknowledgements.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Pods-ARDust/Pods-ARDust-acknowledgements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Pods-ARDust/Pods-ARDust-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Pods-ARDust/Pods-ARDust-frameworks.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Pods-ARDust/Pods-ARDust-resources.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Pods-ARDust/Pods-ARDust-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Pods-ARDust/Pods-ARDust.debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Pods-ARDust/Pods-ARDust.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Pods-ARDust/Pods-ARDust.release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Pods-ARDustTests/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Pods-ARDustTests/Pods-ARDustTests-acknowledgements.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Pods-ARDustTests/Pods-ARDustTests-acknowledgements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Pods-ARDustTests/Pods-ARDustTests-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Pods-ARDustTests/Pods-ARDustTests-frameworks.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Pods-ARDustTests/Pods-ARDustTests-resources.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Pods-ARDustTests/Pods-ARDustTests-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Pods-ARDustTests/Pods-ARDustTests.debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Pods-ARDustTests/Pods-ARDustTests.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Pods-ARDustTests/Pods-ARDustTests.release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Pods-ARDustUITests/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Pods-ARDustUITests/Pods-ARDustUITests-acknowledgements.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Pods-ARDustUITests/Pods-ARDustUITests-acknowledgements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Pods-ARDustUITests/Pods-ARDustUITests-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Pods-ARDustUITests/Pods-ARDustUITests-frameworks.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Pods-ARDustUITests/Pods-ARDustUITests-resources.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Pods-ARDustUITests/Pods-ARDustUITests-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Pods-ARDustUITests/Pods-ARDustUITests.debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Pods-ARDustUITests/Pods-ARDustUITests.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ARDust/Pods/Target Support Files/Pods-ARDustUITests/Pods-ARDustUITests.release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArchitecturePattern/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/GroupTalk.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/GroupTalk.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/GroupTalk.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/GroupTalk.xcodeproj/project.xcworkspace/xcuserdata/youngjungoo.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/GroupTalk.xcodeproj/xcuserdata/youngjungoo.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/GroupTalk.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/GroupTalk.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/GroupTalk.xcworkspace/xcuserdata/youngjungoo.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/GroupTalk/AppDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/GroupTalk/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/GroupTalk/Assets.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/GroupTalk/Assets.xcassets/iconfinder_weechat_1783353.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/GroupTalk/Assets.xcassets/iconfinder_weechat_1783353.imageset/iconfinder_weechat_1783353.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/GroupTalk/Assets.xcassets/스크린샷 2019-02-02 오전 10.01.45.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/GroupTalk/Assets.xcassets/스크린샷 2019-02-02 오전 10.01.45.imageset/스크린샷 2019-02-02 오전 10.01.45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/GroupTalk/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/GroupTalk/Base.lproj/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/GroupTalk/GoogleService-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/GroupTalk/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/GroupTalk/LoginViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/GroupTalk/RemoteConfigDefaults.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/GroupTalk/SignUpViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/GroupTalk/ViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/GroupTalkTests/GroupTalkTests.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/GroupTalkTests/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/GroupTalkUITests/GroupTalkUITests.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/GroupTalkUITests/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Podfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Podfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Firebase/CoreOnly/Sources/Firebase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Firebase/CoreOnly/Sources/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Firebase/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseABTesting/CHANGELOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseABTesting/Frameworks/FirebaseABTesting.framework/FirebaseABTesting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseABTesting/Frameworks/FirebaseABTesting.framework/Headers/FIRExperimentController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseABTesting/Frameworks/FirebaseABTesting.framework/Headers/FIRLifecycleEvents.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseABTesting/Frameworks/FirebaseABTesting.framework/Headers/FirebaseABTesting.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseABTesting/Frameworks/FirebaseABTesting.framework/Modules/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseABTesting/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAnalytics/Frameworks/FIRAnalyticsConnector.framework/FIRAnalyticsConnector" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAnalytics/Frameworks/FirebaseCoreDiagnostics.framework/FirebaseCoreDiagnostics" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAnalytics/Frameworks/FirebaseCoreDiagnostics.framework/Modules/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProviders/EmailPassword/FIREmailAuthProvider.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProviders/EmailPassword/FIREmailPasswordAuthCredential.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProviders/EmailPassword/FIREmailPasswordAuthCredential.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProviders/Facebook/FIRFacebookAuthCredential.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProviders/Facebook/FIRFacebookAuthCredential.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProviders/Facebook/FIRFacebookAuthProvider.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProviders/GameCenter/FIRGameCenterAuthCredential.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProviders/GameCenter/FIRGameCenterAuthCredential.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProviders/GameCenter/FIRGameCenterAuthProvider.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProviders/GitHub/FIRGitHubAuthCredential.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProviders/GitHub/FIRGitHubAuthCredential.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProviders/GitHub/FIRGitHubAuthProvider.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProviders/Google/FIRGoogleAuthCredential.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProviders/Google/FIRGoogleAuthCredential.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProviders/Google/FIRGoogleAuthProvider.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProviders/OAuth/FIROAuthCredential.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProviders/OAuth/FIROAuthCredential.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProviders/OAuth/FIROAuthProvider.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProviders/Phone/FIRPhoneAuthCredential.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProviders/Phone/FIRPhoneAuthCredential_Internal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProviders/Phone/FIRPhoneAuthProvider.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProviders/Twitter/FIRTwitterAuthCredential.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProviders/Twitter/FIRTwitterAuthCredential.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProviders/Twitter/FIRTwitterAuthProvider.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRActionCodeSettings.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAdditionalUserInfo.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAdditionalUserInfo_Internal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuth.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthAPNSToken.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthAPNSToken.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthAPNSTokenManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthAPNSTokenManager.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthAppCredential.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthAppCredential.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthAppCredentialManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthAppCredentialManager.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthAppDelegateProxy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthAppDelegateProxy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthCredential.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthCredential_Internal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthDataResult.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthDataResult_Internal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthDefaultUIDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthDefaultUIDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthDispatcher.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthDispatcher.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthErrorUtils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthErrorUtils.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthExceptionUtils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthExceptionUtils.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthGlobalWorkQueue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthGlobalWorkQueue.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthInternalErrors.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthKeychain.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthKeychain.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthNotificationManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthNotificationManager.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthOperationType.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthProvider.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthSerialTaskQueue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthSerialTaskQueue.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthSettings.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthTokenResult.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthTokenResult_Internal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthURLPresenter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthURLPresenter.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthUserDefaultsStorage.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthUserDefaultsStorage.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthWebUtils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthWebUtils.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthWebView.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthWebView.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthWebViewController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthWebViewController.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuth_Internal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRSecureTokenService.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRSecureTokenService.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRUser.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRUserInfoImpl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRUserInfoImpl.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRUserMetadata.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRUserMetadata_Internal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FIRUser_Internal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/FirebaseAuthVersion.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/NSData+FIRBase64.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/NSData+FIRBase64.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRActionCodeSettings.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAdditionalUserInfo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuth.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthAPNSTokenType.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthCredential.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthDataResult.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthErrors.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthSettings.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthTokenResult.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthUIDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIREmailAuthProvider.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRFacebookAuthProvider.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRGameCenterAuthProvider.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRGitHubAuthProvider.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRGoogleAuthProvider.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIROAuthProvider.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRPhoneAuthCredential.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRPhoneAuthProvider.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRTwitterAuthProvider.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRUser.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRUserInfo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRUserMetadata.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FirebaseAuth.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FirebaseAuthVersion.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRAuthBackend.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRAuthBackend.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRAuthRPCRequest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRAuthRPCResponse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRAuthRequestConfiguration.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRAuthRequestConfiguration.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRCreateAuthURIRequest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRCreateAuthURIRequest.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRCreateAuthURIResponse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRCreateAuthURIResponse.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRDeleteAccountRequest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRDeleteAccountRequest.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRDeleteAccountResponse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRDeleteAccountResponse.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIREmailLinkSignInRequest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIREmailLinkSignInRequest.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIREmailLinkSignInResponse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIREmailLinkSignInResponse.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRGetAccountInfoRequest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRGetAccountInfoRequest.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRGetAccountInfoResponse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRGetAccountInfoResponse.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRGetOOBConfirmationCodeRequest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRGetOOBConfirmationCodeRequest.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRGetOOBConfirmationCodeResponse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRGetOOBConfirmationCodeResponse.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRGetProjectConfigRequest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRGetProjectConfigRequest.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRGetProjectConfigResponse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRGetProjectConfigResponse.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRIdentityToolkitRequest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRIdentityToolkitRequest.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRResetPasswordRequest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRResetPasswordRequest.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRResetPasswordResponse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRResetPasswordResponse.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRSecureTokenRequest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRSecureTokenRequest.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRSecureTokenResponse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRSecureTokenResponse.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRSendVerificationCodeRequest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRSendVerificationCodeRequest.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRSendVerificationCodeResponse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRSendVerificationCodeResponse.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRSetAccountInfoRequest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRSetAccountInfoRequest.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRSetAccountInfoResponse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRSetAccountInfoResponse.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRSignInWithGameCenterRequest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRSignInWithGameCenterRequest.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRSignInWithGameCenterResponse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRSignInWithGameCenterResponse.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRSignUpNewUserRequest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRSignUpNewUserRequest.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRSignUpNewUserResponse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRSignUpNewUserResponse.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRVerifyAssertionRequest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRVerifyAssertionRequest.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRVerifyAssertionResponse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRVerifyAssertionResponse.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRVerifyClientRequest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRVerifyClientRequest.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRVerifyClientResponse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRVerifyClientResponse.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRVerifyCustomTokenRequest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRVerifyCustomTokenRequest.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRVerifyCustomTokenResponse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRVerifyCustomTokenResponse.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRVerifyPasswordRequest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRVerifyPasswordRequest.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRVerifyPasswordResponse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRVerifyPasswordResponse.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRVerifyPhoneNumberRequest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRVerifyPhoneNumberRequest.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRVerifyPhoneNumberResponse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRVerifyPhoneNumberResponse.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuth/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuthInterop/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseAuthInterop/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/FIRAnalyticsConfiguration.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/FIRApp.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/FIRAppAssociationRegistration.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/FIRBundleUtil.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/FIRComponent.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/FIRComponentContainer.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/FIRComponentType.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/FIRConfiguration.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/FIRDependency.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/FIRErrors.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/FIRLogger.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/FIROptions.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/FIRVersion.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/Private/FIRAnalyticsConfiguration+Internal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/Private/FIRAppAssociationRegistration.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/Private/FIRAppInternal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/Private/FIRBundleUtil.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/Private/FIRComponent.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/Private/FIRComponentContainer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/Private/FIRComponentContainerInternal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/Private/FIRComponentType.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/Private/FIRDependency.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/Private/FIRErrorCode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/Private/FIRErrors.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/Private/FIRLibrary.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/Private/FIRLogger.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/Private/FIROptionsInternal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/Private/FIRVersion.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/Public/FIRAnalyticsConfiguration.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/Public/FIRApp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/Public/FIRConfiguration.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/Public/FIRLoggerLevel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/Public/FIROptions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/Firebase/Core/Public/FirebaseCore.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseCore/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Api/FIRDataSnapshot.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Api/FIRDatabase.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Api/FIRDatabaseComponent.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Api/FIRDatabaseComponent.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Api/FIRDatabaseConfig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Api/FIRDatabaseConfig.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Api/FIRDatabaseQuery.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Api/FIRMutableData.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Api/FIRServerValue.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Api/FIRTransactionResult.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Api/Private/FIRDataSnapshot_Private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Api/Private/FIRDatabaseQuery_Private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Api/Private/FIRDatabaseReference_Private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Api/Private/FIRDatabase_Private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Api/Private/FIRMutableData_Private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Api/Private/FIRTransactionResult_Private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Api/Private/FTypedefs_Private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Constants/FConstants.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Constants/FConstants.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FCompoundHash.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FCompoundHash.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FListenProvider.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FListenProvider.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FPersistentConnection.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FPersistentConnection.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FQueryParams.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FQueryParams.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FQuerySpec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FQuerySpec.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FRangeMerge.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FRangeMerge.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FRepo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FRepo.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FRepoInfo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FRepoInfo.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FRepoManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FRepoManager.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FRepo_Private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FServerValues.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FServerValues.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FSnapshotHolder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FSnapshotHolder.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FSparseSnapshotTree.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FSparseSnapshotTree.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FSyncPoint.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FSyncPoint.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FSyncTree.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FSyncTree.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FWriteRecord.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FWriteRecord.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FWriteTree.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FWriteTree.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FWriteTreeRef.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/FWriteTreeRef.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/Operation/FAckUserWrite.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/Operation/FAckUserWrite.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/Operation/FMerge.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/Operation/FMerge.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/Operation/FOperation.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/Operation/FOperationSource.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/Operation/FOperationSource.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/Operation/FOverwrite.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/Operation/FOverwrite.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/Utilities/FIRRetryHelper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/Utilities/FIRRetryHelper.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/Utilities/FImmutableTree.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/Utilities/FImmutableTree.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/Utilities/FPath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/Utilities/FPath.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/Utilities/FTree.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/Utilities/FTree.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/Utilities/FTreeNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/Utilities/FTreeNode.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/View/FCacheNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/View/FCacheNode.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/View/FCancelEvent.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/View/FCancelEvent.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/View/FChange.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/View/FChange.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/View/FChildEventRegistration.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/View/FChildEventRegistration.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/View/FDataEvent.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/View/FDataEvent.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/View/FEvent.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/View/FEventRaiser.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/View/FEventRaiser.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/View/FEventRegistration.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/View/FKeepSyncedEventRegistration.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/View/FKeepSyncedEventRegistration.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/View/FValueEventRegistration.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/View/FValueEventRegistration.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/View/FView.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/View/FView.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/View/FViewCache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/View/FViewCache.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/View/Filter/FChildChangeAccumulator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/View/Filter/FChildChangeAccumulator.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/View/Filter/FCompleteChildSource.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/View/Filter/FIndexedFilter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/View/Filter/FIndexedFilter.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/View/Filter/FLimitedFilter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/View/Filter/FLimitedFilter.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Core/View/Filter/FNodeFilter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/FClock.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/FClock.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/FEventGenerator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/FEventGenerator.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/FIRDatabaseConfig_Private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/FIRDatabaseReference.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/FIndex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/FIndex.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/FKeyIndex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/FKeyIndex.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/FListenComplete.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/FListenComplete.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/FMaxNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/FMaxNode.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/FNamedNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/FNamedNode.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/FPathIndex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/FPathIndex.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/FPriorityIndex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/FPriorityIndex.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/FRangedFilter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/FRangedFilter.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/FTransformedEnumerator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/FTransformedEnumerator.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/FValueIndex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/FValueIndex.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/FViewProcessor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/FViewProcessor.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/FViewProcessorResult.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/FViewProcessorResult.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Login/FAuthTokenProvider.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Login/FAuthTokenProvider.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Login/FIRNoopAuthTokenProvider.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Login/FIRNoopAuthTokenProvider.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Persistence/FCachePolicy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Persistence/FCachePolicy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Persistence/FLevelDBStorageEngine.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Persistence/FLevelDBStorageEngine.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Persistence/FPendingPut.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Persistence/FPendingPut.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Persistence/FPersistenceManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Persistence/FPersistenceManager.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Persistence/FPruneForest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Persistence/FPruneForest.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Persistence/FStorageEngine.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Persistence/FTrackedQuery.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Persistence/FTrackedQuery.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Persistence/FTrackedQueryManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Persistence/FTrackedQueryManager.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Public/FIRDataEventType.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Public/FIRDataSnapshot.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Public/FIRDatabase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Public/FIRDatabaseQuery.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Public/FIRDatabaseReference.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Public/FIRMutableData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Public/FIRServerValue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Public/FIRTransactionResult.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Public/FirebaseDatabase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Realtime/FConnection.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Realtime/FConnection.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Realtime/FWebSocketConnection.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Realtime/FWebSocketConnection.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Snapshot/FChildrenNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Snapshot/FChildrenNode.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Snapshot/FCompoundWrite.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Snapshot/FCompoundWrite.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Snapshot/FEmptyNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Snapshot/FEmptyNode.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Snapshot/FIndexedNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Snapshot/FIndexedNode.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Snapshot/FLeafNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Snapshot/FLeafNode.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Snapshot/FNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Snapshot/FSnapshotUtilities.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Snapshot/FSnapshotUtilities.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/FAtomicNumber.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/FAtomicNumber.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/FEventEmitter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/FEventEmitter.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/FNextPushId.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/FNextPushId.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/FParsedUrl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/FParsedUrl.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/FStringUtilities.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/FStringUtilities.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/FTypedefs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/FUtilities.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/FUtilities.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/FValidation.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/FValidation.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/Tuples/FTupleBoolBlock.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/Tuples/FTupleBoolBlock.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/Tuples/FTupleCallbackStatus.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/Tuples/FTupleCallbackStatus.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/Tuples/FTupleFirebase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/Tuples/FTupleFirebase.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/Tuples/FTupleNodePath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/Tuples/FTupleNodePath.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/Tuples/FTupleObjectNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/Tuples/FTupleObjectNode.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/Tuples/FTupleObjects.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/Tuples/FTupleObjects.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/Tuples/FTupleOnDisconnect.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/Tuples/FTupleOnDisconnect.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/Tuples/FTuplePathValue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/Tuples/FTuplePathValue.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/Tuples/FTupleRemovedQueriesEvents.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/Tuples/FTupleRemovedQueriesEvents.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/Tuples/FTupleSetIdPath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/Tuples/FTupleSetIdPath.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/Tuples/FTupleStringNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/Tuples/FTupleStringNode.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/Tuples/FTupleTSN.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/Tuples/FTupleTSN.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/Tuples/FTupleTransaction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/Tuples/FTupleTransaction.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/Tuples/FTupleUserCallback.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/Utilities/Tuples/FTupleUserCallback.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FArraySortedDictionary.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FArraySortedDictionary.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FImmutableSortedDictionary.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FImmutableSortedDictionary.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FImmutableSortedSet.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FImmutableSortedSet.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FLLRBEmptyNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FLLRBEmptyNode.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FLLRBNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FLLRBValueNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FLLRBValueNode.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FTreeSortedDictionary.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FTreeSortedDictionary.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FTreeSortedDictionaryEnumerator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FTreeSortedDictionaryEnumerator.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/third_party/SocketRocket/FSRWebSocket.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/third_party/SocketRocket/FSRWebSocket.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/third_party/SocketRocket/NSData+SRB64Additions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/third_party/SocketRocket/NSData+SRB64Additions.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/third_party/SocketRocket/fbase64.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/third_party/SocketRocket/fbase64.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/third_party/Wrap-leveldb/APLevelDB.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/Firebase/Database/third_party/Wrap-leveldb/APLevelDB.mm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseDatabase/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseInstanceID/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/FirebaseInstanceID" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseInstanceID/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseRemoteConfig/CHANGELOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseRemoteConfig/Frameworks/FirebaseRemoteConfig.framework/FirebaseRemoteConfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseRemoteConfig/Frameworks/FirebaseRemoteConfig.framework/Headers/FIRRemoteConfig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseRemoteConfig/Frameworks/FirebaseRemoteConfig.framework/Headers/FirebaseRemoteConfig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseRemoteConfig/Frameworks/FirebaseRemoteConfig.framework/Modules/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseRemoteConfig/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/FIRStorage.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/FIRStorageComponent.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/FIRStorageConstants.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/FIRStorageDeleteTask.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/FIRStorageDownloadTask.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/FIRStorageErrors.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/FIRStorageGetDownloadURLTask.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/FIRStorageGetMetadataTask.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/FIRStorageMetadata.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/FIRStorageObservableTask.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/FIRStoragePath.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/FIRStorageReference.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/FIRStorageTask.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/FIRStorageTaskSnapshot.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/FIRStorageTokenAuthorizer.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/FIRStorageUpdateMetadataTask.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/FIRStorageUploadTask.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/FIRStorageUtils.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageComponent.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageConstants_Private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageDeleteTask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageDownloadTask_Private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageErrors.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageGetDownloadURLTask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageGetDownloadURLTask_Private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageGetMetadataTask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageMetadata_Private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageObservableTask_Private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStoragePath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageReference_Private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageTaskSnapshot_Private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageTask_Private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageTokenAuthorizer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageUpdateMetadataTask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageUploadTask_Private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageUtils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorage_Private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorage.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorageConstants.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorageDownloadTask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorageMetadata.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorageObservableTask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorageReference.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorageTask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorageTaskSnapshot.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorageUploadTask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/Firebase/Storage/Public/FirebaseStorage.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/FirebaseStorage/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GTMSessionFetcher/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GTMSessionFetcher/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GTMSessionFetcher/Source/GTMSessionFetcher.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GTMSessionFetcher/Source/GTMSessionFetcher.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GTMSessionFetcher/Source/GTMSessionFetcherLogging.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GTMSessionFetcher/Source/GTMSessionFetcherLogging.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GTMSessionFetcher/Source/GTMSessionFetcherService.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GTMSessionFetcher/Source/GTMSessionFetcherService.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GTMSessionFetcher/Source/GTMSessionUploadFetcher.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GTMSessionFetcher/Source/GTMSessionUploadFetcher.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleAppMeasurement/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleAppMeasurement/Frameworks/GoogleAppMeasurement.framework/Modules/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/GULAppDelegateSwizzler.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Internal/GULAppDelegateSwizzler_Private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Private/GULAppDelegateSwizzler.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleUtilities/GoogleUtilities/Common/GULLoggerCodes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleUtilities/GoogleUtilities/Environment/third_party/GULAppEnvironmentUtil.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleUtilities/GoogleUtilities/Environment/third_party/GULAppEnvironmentUtil.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleUtilities/GoogleUtilities/Logger/GULLogger.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleUtilities/GoogleUtilities/Logger/Private/GULLogger.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleUtilities/GoogleUtilities/Logger/Public/GULLoggerLevel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleUtilities/GoogleUtilities/MethodSwizzler/GULSwizzler.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleUtilities/GoogleUtilities/MethodSwizzler/Private/GULOriginalIMPConvenienceMacros.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleUtilities/GoogleUtilities/MethodSwizzler/Private/GULSwizzler.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleUtilities/GoogleUtilities/NSData+zlib/GULNSData+zlib.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleUtilities/GoogleUtilities/NSData+zlib/GULNSData+zlib.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleUtilities/GoogleUtilities/Network/GULMutableDictionary.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleUtilities/GoogleUtilities/Network/GULNetwork.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleUtilities/GoogleUtilities/Network/GULNetworkConstants.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleUtilities/GoogleUtilities/Network/GULNetworkURLSession.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleUtilities/GoogleUtilities/Network/Private/GULMutableDictionary.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleUtilities/GoogleUtilities/Network/Private/GULNetwork.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleUtilities/GoogleUtilities/Network/Private/GULNetworkConstants.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleUtilities/GoogleUtilities/Network/Private/GULNetworkLoggerProtocol.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleUtilities/GoogleUtilities/Network/Private/GULNetworkMessageCode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleUtilities/GoogleUtilities/Network/Private/GULNetworkURLSession.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleUtilities/GoogleUtilities/Reachability/GULReachabilityChecker+Internal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleUtilities/GoogleUtilities/Reachability/GULReachabilityChecker.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleUtilities/GoogleUtilities/Reachability/Private/GULReachabilityChecker.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleUtilities/GoogleUtilities/Reachability/Private/GULReachabilityMessageCode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleUtilities/GoogleUtilities/UserDefaults/GULUserDefaults.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleUtilities/GoogleUtilities/UserDefaults/Private/GULUserDefaults.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleUtilities/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/GoogleUtilities/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Headers/Private/Firebase/Firebase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Headers/Private/FirebaseAuthInterop/FIRAuthInterop.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Headers/Public/Firebase/Firebase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Headers/Public/FirebaseAuthInterop/FIRAuthInterop.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Manifest.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Pods.xcodeproj/xcuserdata/youngjungoo.xcuserdatad/xcschemes/FirebaseAuth.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Pods.xcodeproj/xcuserdata/youngjungoo.xcuserdatad/xcschemes/FirebaseCore.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Pods.xcodeproj/xcuserdata/youngjungoo.xcuserdatad/xcschemes/FirebaseDatabase.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Pods.xcodeproj/xcuserdata/youngjungoo.xcuserdatad/xcschemes/FirebaseStorage.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Pods.xcodeproj/xcuserdata/youngjungoo.xcuserdatad/xcschemes/GTMSessionFetcher.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Pods.xcodeproj/xcuserdata/youngjungoo.xcuserdatad/xcschemes/GoogleUtilities.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Pods.xcodeproj/xcuserdata/youngjungoo.xcuserdatad/xcschemes/Pods-GroupTalk.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Pods.xcodeproj/xcuserdata/youngjungoo.xcuserdatad/xcschemes/Pods-GroupTalkTests.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Pods.xcodeproj/xcuserdata/youngjungoo.xcuserdatad/xcschemes/Pods-GroupTalkUITests.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Pods.xcodeproj/xcuserdata/youngjungoo.xcuserdatad/xcschemes/Protobuf.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Pods.xcodeproj/xcuserdata/youngjungoo.xcuserdatad/xcschemes/SnapKit.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Pods.xcodeproj/xcuserdata/youngjungoo.xcuserdatad/xcschemes/TextFieldEffects.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Pods.xcodeproj/xcuserdata/youngjungoo.xcuserdatad/xcschemes/leveldb-library.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Pods.xcodeproj/xcuserdata/youngjungoo.xcuserdatad/xcschemes/nanopb.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Pods.xcodeproj/xcuserdata/youngjungoo.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBArray.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBArray.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBArray_PackagePrivate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBBootstrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBCodedInputStream.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBCodedInputStream.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBCodedInputStream_PackagePrivate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBCodedOutputStream.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBCodedOutputStream.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBCodedOutputStream_PackagePrivate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBDescriptor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBDescriptor.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBDescriptor_PackagePrivate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBDictionary.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBDictionary.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBDictionary_PackagePrivate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBExtensionInternals.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBExtensionInternals.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBExtensionRegistry.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBExtensionRegistry.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBMessage.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBMessage.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBMessage_PackagePrivate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBProtocolBuffers.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBProtocolBuffers_RuntimeSupport.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBRootObject.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBRootObject.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBRootObject_PackagePrivate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBRuntimeTypes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBUnknownField.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBUnknownField.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBUnknownFieldSet.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBUnknownFieldSet.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBUnknownFieldSet_PackagePrivate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBUnknownField_PackagePrivate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBUtilities.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBUtilities.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBUtilities_PackagePrivate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBWellKnownTypes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBWellKnownTypes.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBWireFormat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/GPBWireFormat.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/google/protobuf/Any.pbobjc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/google/protobuf/Any.pbobjc.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/google/protobuf/Api.pbobjc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/google/protobuf/Api.pbobjc.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/google/protobuf/Duration.pbobjc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/google/protobuf/Duration.pbobjc.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/google/protobuf/Empty.pbobjc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/google/protobuf/Empty.pbobjc.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/google/protobuf/FieldMask.pbobjc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/google/protobuf/FieldMask.pbobjc.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/google/protobuf/SourceContext.pbobjc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/google/protobuf/SourceContext.pbobjc.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/google/protobuf/Struct.pbobjc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/google/protobuf/Struct.pbobjc.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/google/protobuf/Timestamp.pbobjc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/google/protobuf/Timestamp.pbobjc.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/google/protobuf/Type.pbobjc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/google/protobuf/Type.pbobjc.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/google/protobuf/Wrappers.pbobjc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Protobuf/objectivec/google/protobuf/Wrappers.pbobjc.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/Constraint.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/ConstraintAttributes.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/ConstraintConfig.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/ConstraintConstantTarget.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/ConstraintDSL.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/ConstraintDescription.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/ConstraintInsetTarget.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/ConstraintInsets.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/ConstraintItem.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/ConstraintLayoutGuide+Extensions.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/ConstraintLayoutGuide.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/ConstraintLayoutGuideDSL.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/ConstraintLayoutSupport.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/ConstraintLayoutSupportDSL.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/ConstraintMaker.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/ConstraintMakerEditable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/ConstraintMakerExtendable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/ConstraintMakerFinalizable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/ConstraintMakerPriortizable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/ConstraintMakerRelatable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/ConstraintMultiplierTarget.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/ConstraintOffsetTarget.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/ConstraintPriority.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/ConstraintPriorityTarget.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/ConstraintRelatableTarget.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/ConstraintRelation.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/ConstraintView+Extensions.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/ConstraintView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/ConstraintViewDSL.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/Debugging.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/LayoutConstraint.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/LayoutConstraintItem.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/Typealiases.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/SnapKit/Source/UILayoutSupport+Extensions.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/FirebaseAuth/FirebaseAuth-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/FirebaseAuth/FirebaseAuth-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/FirebaseAuth/FirebaseAuth.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/FirebaseAuth/FirebaseAuth.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/FirebaseCore/FirebaseCore-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/FirebaseCore/FirebaseCore-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/FirebaseCore/FirebaseCore.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/FirebaseCore/FirebaseCore.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/FirebaseDatabase/FirebaseDatabase-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/FirebaseDatabase/FirebaseDatabase-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/FirebaseDatabase/FirebaseDatabase.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/FirebaseDatabase/FirebaseDatabase.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/FirebaseStorage/FirebaseStorage-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/FirebaseStorage/FirebaseStorage-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/FirebaseStorage/FirebaseStorage.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/FirebaseStorage/FirebaseStorage.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher-prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/GTMSessionFetcher/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/GoogleUtilities/GoogleUtilities-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/GoogleUtilities/GoogleUtilities-prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/GoogleUtilities/GoogleUtilities-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/GoogleUtilities/GoogleUtilities.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/GoogleUtilities/GoogleUtilities.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/GoogleUtilities/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Pods-GroupTalk/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Pods-GroupTalk/Pods-GroupTalk-acknowledgements.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Pods-GroupTalk/Pods-GroupTalk-acknowledgements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Pods-GroupTalk/Pods-GroupTalk-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Pods-GroupTalk/Pods-GroupTalk-frameworks.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Pods-GroupTalk/Pods-GroupTalk-resources.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Pods-GroupTalk/Pods-GroupTalk-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Pods-GroupTalk/Pods-GroupTalk.debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Pods-GroupTalk/Pods-GroupTalk.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Pods-GroupTalk/Pods-GroupTalk.release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Pods-GroupTalkTests/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Pods-GroupTalkTests/Pods-GroupTalkTests-acknowledgements.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Pods-GroupTalkTests/Pods-GroupTalkTests-acknowledgements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Pods-GroupTalkTests/Pods-GroupTalkTests-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Pods-GroupTalkTests/Pods-GroupTalkTests-frameworks.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Pods-GroupTalkTests/Pods-GroupTalkTests-resources.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Pods-GroupTalkTests/Pods-GroupTalkTests-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Pods-GroupTalkTests/Pods-GroupTalkTests.debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Pods-GroupTalkTests/Pods-GroupTalkTests.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Pods-GroupTalkTests/Pods-GroupTalkTests.release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Pods-GroupTalkUITests/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Pods-GroupTalkUITests/Pods-GroupTalkUITests-acknowledgements.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Pods-GroupTalkUITests/Pods-GroupTalkUITests-acknowledgements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Pods-GroupTalkUITests/Pods-GroupTalkUITests-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Pods-GroupTalkUITests/Pods-GroupTalkUITests-frameworks.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Pods-GroupTalkUITests/Pods-GroupTalkUITests-resources.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Pods-GroupTalkUITests/Pods-GroupTalkUITests-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Pods-GroupTalkUITests/Pods-GroupTalkUITests.debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Pods-GroupTalkUITests/Pods-GroupTalkUITests.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Pods-GroupTalkUITests/Pods-GroupTalkUITests.release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Protobuf/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Protobuf/Protobuf-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Protobuf/Protobuf-prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Protobuf/Protobuf-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Protobuf/Protobuf.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/Protobuf/Protobuf.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/SnapKit/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/SnapKit/SnapKit-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/SnapKit/SnapKit-prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/SnapKit/SnapKit-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/SnapKit/SnapKit.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/SnapKit/SnapKit.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/TextFieldEffects/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/TextFieldEffects/TextFieldEffects-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/TextFieldEffects/TextFieldEffects-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/TextFieldEffects/TextFieldEffects.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/TextFieldEffects/TextFieldEffects.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/leveldb-library/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/leveldb-library/leveldb-library-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/leveldb-library/leveldb-library-prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/leveldb-library/leveldb-library-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/leveldb-library/leveldb-library.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/leveldb-library/leveldb-library.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/nanopb/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/nanopb/nanopb-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/nanopb/nanopb-prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/nanopb/nanopb-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/nanopb/nanopb.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/Target Support Files/nanopb/nanopb.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/TextFieldEffects/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/TextFieldEffects/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/TextFieldEffects/TextFieldEffects/TextFieldEffects/AkiraTextField.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/TextFieldEffects/TextFieldEffects/TextFieldEffects/HoshiTextField.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/TextFieldEffects/TextFieldEffects/TextFieldEffects/IsaoTextField.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/TextFieldEffects/TextFieldEffects/TextFieldEffects/JiroTextField.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/TextFieldEffects/TextFieldEffects/TextFieldEffects/KaedeTextField.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/TextFieldEffects/TextFieldEffects/TextFieldEffects/MadokaTextField.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/TextFieldEffects/TextFieldEffects/TextFieldEffects/MinoruTextField.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/TextFieldEffects/TextFieldEffects/TextFieldEffects/TextFieldEffects.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/TextFieldEffects/TextFieldEffects/TextFieldEffects/YokoTextField.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/TextFieldEffects/TextFieldEffects/TextFieldEffects/YoshikoTextField.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/db/builder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/db/builder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/db/c.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/db/db_impl.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/db/db_impl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/db/db_iter.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/db/db_iter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/db/dbformat.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/db/dbformat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/db/dumpfile.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/db/filename.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/db/filename.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/db/log_format.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/db/log_reader.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/db/log_reader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/db/log_writer.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/db/log_writer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/db/memtable.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/db/memtable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/db/repair.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/db/skiplist.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/db/snapshot.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/db/table_cache.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/db/table_cache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/db/version_edit.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/db/version_edit.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/db/version_set.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/db/version_set.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/db/write_batch.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/db/write_batch_internal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/include/leveldb/c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/include/leveldb/cache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/include/leveldb/comparator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/include/leveldb/db.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/include/leveldb/dumpfile.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/include/leveldb/env.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/include/leveldb/filter_policy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/include/leveldb/iterator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/include/leveldb/options.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/include/leveldb/slice.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/include/leveldb/status.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/include/leveldb/table.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/include/leveldb/table_builder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/include/leveldb/write_batch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/port/atomic_pointer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/port/port.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/port/port_example.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/port/port_posix.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/port/port_posix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/port/port_posix_sse.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/port/thread_annotations.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/table/block.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/table/block.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/table/block_builder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/table/block_builder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/table/filter_block.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/table/filter_block.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/table/format.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/table/format.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/table/iterator.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/table/iterator_wrapper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/table/merger.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/table/merger.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/table/table.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/table/table_builder.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/table/two_level_iterator.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/table/two_level_iterator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/util/arena.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/util/arena.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/util/bloom.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/util/cache.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/util/coding.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/util/coding.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/util/comparator.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/util/crc32c.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/util/crc32c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/util/env.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/util/env_posix.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/util/env_posix_test_helper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/util/filter_policy.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/util/hash.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/util/hash.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/util/histogram.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/util/histogram.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/util/logging.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/util/logging.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/util/mutexlock.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/util/options.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/util/posix_logger.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/util/random.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/util/status.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/util/testharness.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/util/testharness.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/util/testutil.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/leveldb-library/util/testutil.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/nanopb/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/nanopb/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/nanopb/pb.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/nanopb/pb_common.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/nanopb/pb_common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/nanopb/pb_decode.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/nanopb/pb_decode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/nanopb/pb_encode.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupTalk/Pods/nanopb/pb_encode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_11047/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_11047/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_11047/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_11047/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_11047/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_13458/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_13458/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_13458/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_13458/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_13458/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14501/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14501/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14501/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14501/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14501/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14501/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14502/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14502/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14502/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14502/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14502/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14502/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14503/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14503/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14503/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14503/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14503/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14503/src/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14888/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14888/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14888/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14888/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14888/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14888/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14889/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14889/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14889/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14889/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14889/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14889/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14890/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14890/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14890/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14890/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14890/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14891/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14891/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14891/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14891/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_14891/src/BaekJoon_14891.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_16236/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_16236/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_16236/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_16236/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/BaekJoon_16236/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithm/inputData.java" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="967" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="not.eligible.for.single.variant.sync" value="true" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d890dc89-39cb-49be-ad1f-243d56aa3013" name="Default Changelist" comment="" />
+      <created>1566890670377</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566890670377</updated>
+    </task>
+    <task id="LOCAL-00001" summary="[Android] Android project init">
+      <created>1566891289932</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566891289932</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="967" extended-state="6" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.3294621" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Run" order="0" />
+      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.498779" weight="0.32914287" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.4993895" weight="0.32914287" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5012225" side_tool="true" visible="true" weight="0.32914287" />
+      <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.4993895" weight="0.32914287" />
+      <window_info active="true" anchor="bottom" id="Build" order="7" sideWeight="0.4987775" visible="true" weight="0.32914287" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="Viewer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Device File Explorer" order="1" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Gradle" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[Android] Android project init" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Android] Android project init" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/chimchakae/MainActivity.java" />
+  </component>
+</project>
