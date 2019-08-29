@@ -1,6 +1,7 @@
 package com.example.chimchakae;
 
 import android.app.Activity;
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -11,7 +12,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -36,7 +36,7 @@ public class LoginActivity extends AppCompatActivity {
     private EditText editTextPassword;
     private CheckBox checkBoxAutoLogin;
     private Button loginButton;
-    private ProgressBar loadingProgressBar;
+    private ProgressDialog progressDialog;
 
     // pwd regular expression
     private static final Pattern PASSWORD_PATTERN = Pattern.compile("^[a-zA-Z0-9!@.#$%^&*?_~]{4,16}$");
@@ -60,7 +60,7 @@ public class LoginActivity extends AppCompatActivity {
         editTextPassword = findViewById(R.id.password);
         checkBoxAutoLogin = findViewById(R.id.cb_autoLogin);
         loginButton = findViewById(R.id.login);
-        loadingProgressBar = findViewById(R.id.loading);
+        progressDialog = new ProgressDialog(this);
 
         autoLogin();
 
@@ -138,6 +138,8 @@ public class LoginActivity extends AppCompatActivity {
 
     // 로그인
     private void loginUser(final String email, final String password) {
+        progressDialog.setMessage("로그인 중 입니다.. 기다려 주세요...");
+        progressDialog.show();
 
         firebaseAuth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
@@ -147,18 +149,19 @@ public class LoginActivity extends AppCompatActivity {
                             // 로그인 성공
                             Toast.makeText(LoginActivity.this, R.string.success_login, Toast.LENGTH_SHORT).show();
                             if(checkBoxAutoLogin.isChecked()) {
-                                System.out.println("체크박스");
                                 SharedPreferences.Editor autoLogin = auto.edit();
                                 autoLogin.putString("inputId", email);
                                 autoLogin.putString("inputPwd", password);
                                 autoLogin.commit();
-                                startActivity(new Intent(LoginActivity.this, MainActivity.class));
-                                finish();
                             }
+                            startActivity(new Intent(LoginActivity.this, MainActivity.class));
+                            finish();
                         } else {
                             // 로그인 실패
                             Toast.makeText(LoginActivity.this, R.string.failed_login, Toast.LENGTH_SHORT).show();
                         }
+
+                        progressDialog.dismiss();
                     }
                 });
     }

@@ -6,6 +6,8 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 import androidx.appcompat.app.ActionBar;
@@ -21,6 +23,9 @@ public class MainActivity extends AppCompatActivity {
 
     private DrawerLayout mDrawerLayout;
 
+    // Flood Test용
+    Button floodBtn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +37,16 @@ public class MainActivity extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setHomeAsUpIndicator(R.drawable.ic_menu);
         actionBar.setDisplayHomeAsUpEnabled(true);
+
+        floodBtn = findViewById(R.id.go_flood);
+
+        floodBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, FloodingInfoActivity.class));
+                finish();
+            }
+        });
 
         //DrawerLayout 설정
         mDrawerLayout = findViewById(R.id.drawer_layout);
@@ -71,6 +86,8 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             }
         });
+
+
 
     }
 
