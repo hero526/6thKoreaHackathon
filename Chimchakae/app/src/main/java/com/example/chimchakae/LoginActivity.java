@@ -1,12 +1,15 @@
 package com.example.chimchakae;
 
+import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
@@ -31,14 +34,17 @@ public class LoginActivity extends AppCompatActivity {
     private Button signUpButton;
     private EditText editTextEmail;
     private EditText editTextPassword;
+    private CheckBox checkBoxAutoLogin;
     private Button loginButton;
     private ProgressBar loadingProgressBar;
 
-    // 비밀번호 정규식
+    // pwd regular expression
     private static final Pattern PASSWORD_PATTERN = Pattern.compile("^[a-zA-Z0-9!@.#$%^&*?_~]{4,16}$");
-
+    // Firebase obj for Authentication
     private FirebaseAuth firebaseAuth;
 
+    // auto login obj
+    private SharedPreferences auto;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -47,12 +53,16 @@ public class LoginActivity extends AppCompatActivity {
 
         firebaseAuth = FirebaseAuth.getInstance();
 
+        auto = getSharedPreferences("auto", Activity.MODE_PRIVATE);
+
         signUpButton = findViewById(R.id.signUpBtn);
         editTextEmail = findViewById(R.id.username);
         editTextPassword = findViewById(R.id.password);
+        checkBoxAutoLogin = findViewById(R.id.cb_autoLogin);
         loginButton = findViewById(R.id.login);
         loadingProgressBar = findViewById(R.id.loading);
 
+        autoLogin();
 
         TextWatcher afterTextChangedListener = new TextWatcher() {
             @Override
@@ -88,8 +98,6 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 signIn(v);
-                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-                startActivity(intent);
             }
         });
 
@@ -117,8 +125,19 @@ public class LoginActivity extends AppCompatActivity {
         }
     }
 
+    private void autoLogin() {
+            String loginId = auto.getString("inputId", null);
+            String loginPwd = auto.getString("inputPwd",null);
+
+            if(loginId != null && loginPwd != null) {
+                    Toast.makeText(LoginActivity.this, loginId + "계정으로 자동로그인 입니다.", Toast.LENGTH_SHORT).show();
+                    startActivity(new Intent(LoginActivity.this, MainActivity.class));
+                    finish();
+            }
+    }
+
     // 로그인
-    private void loginUser(String email, String password) {
+    private void loginUser(final String email, final String password) {
 
         firebaseAuth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
@@ -127,6 +146,15 @@ public class LoginActivity extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             // 로그인 성공
                             Toast.makeText(LoginActivity.this, R.string.success_login, Toast.LENGTH_SHORT).show();
+                            if(checkBoxAutoLogin.isChecked()) {
+                                System.out.println("체크박스");
+                                SharedPreferences.Editor autoLogin = auto.edit();
+                                autoLogin.putString("inputId", email);
+                                autoLogin.putString("inputPwd", password);
+                                autoLogin.commit();
+                                startActivity(new Intent(LoginActivity.this, MainActivity.class));
+                                finish();
+                            }
                         } else {
                             // 로그인 실패
                             Toast.makeText(LoginActivity.this, R.string.failed_login, Toast.LENGTH_SHORT).show();

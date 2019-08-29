@@ -103,7 +103,6 @@ public class SignUpActivity extends AppCompatActivity {
         if(isValidEmail() && isValidPasswd()) {
             createUser(email, password);
             // 회원가입 성공 이후 firebase rdb에 정보 upload
-            databaseReference.addListenerForSingleValueEvent(checkRegister);
         }
     }
 
@@ -152,6 +151,8 @@ public class SignUpActivity extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             // 회원가입 성공
                             Toast.makeText(SignUpActivity.this, R.string.success_signup, Toast.LENGTH_SHORT).show();
+                            // 성공 이후 rdb에 회원정보 upload
+                            databaseReference.addListenerForSingleValueEvent(checkRegister);
                             startActivity(new Intent(SignUpActivity.this, MainActivity.class));
                         } else {
                             // 회원가입 실패
