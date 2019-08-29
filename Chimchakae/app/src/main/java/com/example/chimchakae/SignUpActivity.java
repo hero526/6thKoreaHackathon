@@ -1,5 +1,6 @@
 package com.example.chimchakae;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Patterns;
@@ -38,6 +39,8 @@ public class SignUpActivity extends AppCompatActivity {
     private EditText editTextPassword;
     private EditText editTextCarNum;
     private Button signUpButton;
+    private ProgressDialog progressDialog;
+
 
     private String email = "";
     private String password = "";
@@ -85,6 +88,7 @@ public class SignUpActivity extends AppCompatActivity {
         editTextEmail = findViewById(R.id.et_eamil);
         editTextPassword = findViewById(R.id.et_password);
         signUpButton = findViewById(R.id.btn_signUp);
+        progressDialog = new ProgressDialog(this);
 
         signUpButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -106,15 +110,6 @@ public class SignUpActivity extends AppCompatActivity {
         }
     }
 
-    public void signIn(View view) {
-        email = editTextEmail.getText().toString();
-        password = editTextPassword.getText().toString();
-
-        if(isValidEmail() && isValidPasswd()) {
-            loginUser(email, password);
-
-        }
-    }
 
     // 이메일 유효성 검사
     private boolean isValidEmail() {
@@ -144,6 +139,10 @@ public class SignUpActivity extends AppCompatActivity {
 
     // 회원가입
     private void createUser(String email, String password) {
+        progressDialog.setMessage("등록중입니다. 기다려 주세요...");
+        progressDialog.show();
+
+
         firebaseAuth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
@@ -153,33 +152,17 @@ public class SignUpActivity extends AppCompatActivity {
                             Toast.makeText(SignUpActivity.this, R.string.success_signup, Toast.LENGTH_SHORT).show();
                             // 성공 이후 rdb에 회원정보 upload
                             databaseReference.addListenerForSingleValueEvent(checkRegister);
-                            startActivity(new Intent(SignUpActivity.this, MainActivity.class));
+                            startActivity(new Intent(SignUpActivity.this, LoginActivity.class));
                         } else {
                             // 회원가입 실패
                             Toast.makeText(SignUpActivity.this, R.string.failed_signup, Toast.LENGTH_SHORT).show();
                         }
+                        progressDialog.dismiss();
                     }
                 });
     }
 
 
-    // 로그인
-    private void loginUser(String email, String password) {
-
-        firebaseAuth.signInWithEmailAndPassword(email, password)
-                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        if (task.isSuccessful()) {
-                            // 로그인 성공
-                            Toast.makeText(SignUpActivity.this, R.string.success_login, Toast.LENGTH_SHORT).show();
-                        } else {
-                            // 로그인 실패
-                            Toast.makeText(SignUpActivity.this, R.string.failed_login, Toast.LENGTH_SHORT).show();
-                        }
-                    }
-                });
-    }
 
     private void makeNewId() {
 
