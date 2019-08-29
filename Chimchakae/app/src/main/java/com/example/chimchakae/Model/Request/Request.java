@@ -12,7 +12,7 @@ import java.net.URL;
 
 public class Request extends AsyncTask<String, Void, String> {
 
-    String serviceKey = "5t%2FaG7XwaI3khwGfzdWSguvJz%2BjgYub37AHz4oY1qubvtwNYe3V7XpClwmCt0hWUSE%2F%2BaR3F0LQUxyr1lcLL2Q%3D%3D";
+    String serviceKey = "";
     private String str, receiveMsg;
 
 
