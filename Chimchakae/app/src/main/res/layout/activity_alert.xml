@@ -17,12 +17,14 @@
             android:id="@+id/carrierBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="roleBtnClick"
             android:text="Carrier" />
 
         <Button
             android:id="@+id/followerBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="roleBtnClick"
             android:text="Follower" />
     </LinearLayout>
 

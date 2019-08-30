@@ -1,6 +1,8 @@
 package com.example.chimchakae;
 
+import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -19,11 +21,19 @@ public class AlertActivity extends AppCompatActivity {
     private Button carrierButton;
     private Button followerButton;
 
+    private SharedPreferences auto;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alert);
+
+        carrierButton = findViewById(R.id.carrierBtn);
+        followerButton = findViewById(R.id.followerBtn);
+    }
+
+    public void roleBtnClick(View v) {
+        auto = getSharedPreferences("auto", Activity.MODE_PRIVATE);
 
         OkHttpClient client = new OkHttpClient.Builder()
                 .readTimeout(3, TimeUnit.SECONDS)
@@ -39,33 +49,20 @@ public class AlertActivity extends AppCompatActivity {
                 super.onOpen(webSocket, response);
             }
         });
-
-        carrierButton = findViewById(R.id.carrierBtn);
-        followerButton = findViewById(R.id.followerBtn);
-
-        carrierButton.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                webSocket.send("android: testID: C");
-                //receive data
-                webSocket.close(1000, "Bye");
-                Intent intent = new Intent(AlertActivity.this, CarrierActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        followerButton.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                webSocket.send("android: testID: F");
-                webSocket.close(1000, "Bye");
-                Intent intent = new Intent(AlertActivity.this, FollowerActivity.class);
-                startActivity(intent);
-            }
-        });
+        String userId = auto.getString("inputId", null);
+        Intent intent = null;
+        if (v.getId() == R.id.carrierBtn) {
+            webSocket.send("android: " + userId + ": C");
+            intent = new Intent(AlertActivity.this, CarrierActivity.class);
+        }
+        if (v.getId() == R.id.followerBtn) {
+            webSocket.send("android: " + userId + ": F");
+            intent = new Intent(AlertActivity.this, FollowerActivity.class);
+        }
+        webSocket.close(1000, "Bye");
+        startActivity(intent);
     }
 
+    ;
 
 }
