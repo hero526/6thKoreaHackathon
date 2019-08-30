@@ -7,6 +7,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
@@ -18,10 +19,17 @@ import androidx.annotation.NonNull;
 import androidx.annotation.StringRes;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.chimchakae.Model.User;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.iid.FirebaseInstanceId;
 
 import java.util.regex.Pattern;
 
@@ -43,6 +51,9 @@ public class LoginActivity extends AppCompatActivity {
     // Firebase obj for Authentication
     private FirebaseAuth firebaseAuth;
 
+    private DatabaseReference mDatabase;
+    private String deviceToken;
+
     // auto login obj
     private SharedPreferences auto;
 
@@ -52,6 +63,9 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         firebaseAuth = FirebaseAuth.getInstance();
+        // Firebase RDB instance request
+        mDatabase = FirebaseDatabase.getInstance().getReference("users");
+        deviceToken = FirebaseInstanceId.getInstance().getToken();
 
         auto = getSharedPreferences("auto", Activity.MODE_PRIVATE);
 
@@ -154,6 +168,7 @@ public class LoginActivity extends AppCompatActivity {
                                 autoLogin.putString("inputPwd", password);
                                 autoLogin.commit();
                             }
+                            checkFCMToken();
                             startActivity(new Intent(LoginActivity.this, MainActivity.class));
                             finish();
                         } else {
@@ -190,6 +205,34 @@ public class LoginActivity extends AppCompatActivity {
         } else {
             return true;
         }
+    }
+
+    private void checkFCMToken() {
+
+        String key = mDatabase.child("users").push().getKey();
+        final String userEmail = editTextEmail.getText().toString();
+        mDatabase.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                for(DataSnapshot messageData : dataSnapshot.getChildren()) {
+                    // user 정보 가져오기
+                    User user = messageData.getValue(User.class);
+                    // 매치가 되어서 같으면 Token 정보를 바꾼다.
+                    if(userEmail.equals(user.getUserId())) {
+                        User updateUser = new User(user.getUserId(), deviceToken, user.getCarNum());
+                        mDatabase.child(messageData.getKey()).removeValue();
+                        mDatabase.push().setValue(updateUser);
+                        mDatabase.removeEventListener(this);
+                        return;
+                    }
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+                Log.w("Fail", "Fialed to read value");
+            }
+        });
     }
 
 
