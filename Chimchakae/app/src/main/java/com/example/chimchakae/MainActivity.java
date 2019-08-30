@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         floodBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, AlertActivity.class));
+                startActivity(new Intent(MainActivity.this, FloodingInfoActivity.class));
                 finish();
             }
         });
@@ -67,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
 
                     case R.id.navigation_item_images:
                         Toast.makeText(MainActivity.this, menuItem.getTitle(), Toast.LENGTH_LONG).show();
+                        startActivity(new Intent(MainActivity.this, AlertActivity.class));
                         break;
 
                     case R.id.navigation_item_location:
