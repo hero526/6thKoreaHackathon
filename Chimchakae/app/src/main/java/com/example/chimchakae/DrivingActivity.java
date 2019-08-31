@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 import java.util.concurrent.TimeUnit;
 
@@ -15,18 +16,24 @@ import okhttp3.Response;
 import okhttp3.WebSocket;
 import okhttp3.WebSocketListener;
 
-public class AlertActivity extends AppCompatActivity {
+public class DrivingActivity extends AppCompatActivity {
+    // auto login obj
     private SharedPreferences auto;
+    String followerNum;
+    String myNum;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_alert);
+        setContentView(R.layout.activity_driving);
+
+        Intent intent = getIntent();
+        auto = getSharedPreferences("auto", Activity.MODE_PRIVATE);
+        followerNum = intent.getExtras().getString("followerNum");
+        myNum = auto.getString("inputCarNum", null);
     }
 
-    public void roleBtnClick(View v) {
-        auto = getSharedPreferences("auto", Activity.MODE_PRIVATE);
-
+    public void StartBtnClick(View v) {
         OkHttpClient client = new OkHttpClient.Builder()
                 .readTimeout(3, TimeUnit.SECONDS)
                 .build();
@@ -41,21 +48,10 @@ public class AlertActivity extends AppCompatActivity {
                 super.onOpen(webSocket, response);
             }
         });
-        String userId = auto.getString("inputId", null);
-        String carNum = auto.getString("inputCarNum", null);
-        Intent intent = null;
-        if (v.getId() == R.id.carrierBtn) {
-            webSocket.send("android: " + userId + ": " + carNum  + ": C");
-            intent = new Intent(AlertActivity.this, CarrierActivity.class);
-        }
-        if (v.getId() == R.id.followerBtn) {
-            webSocket.send("android: " + userId + ": " + carNum  + ": F");
-            intent = new Intent(AlertActivity.this, FollowerActivity.class);
-        }
-        webSocket.close(1000, "Bye");
+        webSocket.send("carrier: " + myNum + ": " + followerNum);
+        Toast.makeText(DrivingActivity.this, "팔로워 인도 신청이 완료되었습니다. 운행 승인 알림이 뜨면 출발 해 주세요", Toast.LENGTH_LONG).show();
+        Intent intent = new Intent(DrivingActivity.this, CarryFinActivity.class);
         startActivity(intent);
+        webSocket.close(1000, "Bye");
     }
-
-    ;
-
 }
