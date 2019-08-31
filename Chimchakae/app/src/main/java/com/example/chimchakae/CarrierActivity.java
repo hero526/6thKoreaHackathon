@@ -1,11 +1,11 @@
 package com.example.chimchakae;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.ListView;
-
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
+import android.widget.TextView;
 
 import com.example.chimchakae.Model.Follower;
 import com.example.chimchakae.View.ListViewAdapter;
@@ -14,6 +14,9 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class CarrierActivity extends AppCompatActivity {
 
@@ -30,8 +33,6 @@ public class CarrierActivity extends AppCompatActivity {
         setContentView(R.layout.activity_carrier);
 
 
-
-        listView = findViewById(R.id.lv_follower);
         adapter = new ListViewAdapter();
 
 
@@ -73,7 +74,15 @@ public class CarrierActivity extends AppCompatActivity {
 
 
         //TODO: listView.setOnClickListener() 함수 짜기
-
+        listView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                TextView followerNum = findViewById(R.id.tv_carNum);
+                Intent intent = new Intent(CarrierActivity.this, DrivingActivity.class);
+                intent.putExtra("followerNum", followerNum.getText());
+                startActivity(intent);
+            }
+        });
 
     }
 

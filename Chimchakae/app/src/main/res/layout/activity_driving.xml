@@ -4,18 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FollowerActivity">
+    tools:context=".DrivingActivity">
 
     <TextView
-        android:id="@+id/followerWaitingMsg"
+        android:id="@+id/DrivingNavTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="follower Waiting Message"
-        app:autoSizeMaxTextSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="팔로워 앞에 위치한 후 운행 시작을 눌러 주세요"
+        app:layout_constraintBottom_toTopOf="@+id/DrivingStartBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/DrivingStartBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="StartBtnClick"
+        android:text="운행 시작"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

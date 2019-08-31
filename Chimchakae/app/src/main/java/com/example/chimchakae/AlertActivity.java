@@ -5,12 +5,16 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
+<<<<<<< HEAD
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
+=======
+>>>>>>> 43ec7ff6074798e6d93e8e72a0d807e11d3c6412
 
 import java.util.concurrent.TimeUnit;
 
+import androidx.appcompat.app.AppCompatActivity;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
@@ -18,19 +22,25 @@ import okhttp3.WebSocket;
 import okhttp3.WebSocketListener;
 
 public class AlertActivity extends AppCompatActivity {
+<<<<<<< HEAD
 
     private CardView carrierButton;
     private CardView followerButton;
 
+=======
+>>>>>>> 43ec7ff6074798e6d93e8e72a0d807e11d3c6412
     private SharedPreferences auto;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alert);
+<<<<<<< HEAD
 
         carrierButton = findViewById(R.id.carrierCard);
         followerButton = findViewById(R.id.followerCard);
+=======
+>>>>>>> 43ec7ff6074798e6d93e8e72a0d807e11d3c6412
     }
 
     public void roleBtnClick(View v) {
