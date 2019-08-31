@@ -5,9 +5,9 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import java.util.concurrent.TimeUnit;
 
@@ -19,8 +19,8 @@ import okhttp3.WebSocketListener;
 
 public class AlertActivity extends AppCompatActivity {
 
-    private Button carrierButton;
-    private Button followerButton;
+    private CardView carrierButton;
+    private CardView followerButton;
 
     private SharedPreferences auto;
 
@@ -29,8 +29,8 @@ public class AlertActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alert);
 
-        carrierButton = findViewById(R.id.carrierBtn);
-        followerButton = findViewById(R.id.followerBtn);
+        carrierButton = findViewById(R.id.carrierCard);
+        followerButton = findViewById(R.id.followerCard);
     }
 
     public void roleBtnClick(View v) {
@@ -53,11 +53,11 @@ public class AlertActivity extends AppCompatActivity {
         String userId = auto.getString("inputId", null);
         String carNum = auto.getString("inputCarNum", null);
         Intent intent = null;
-        if (v.getId() == R.id.carrierBtn) {
+        if (v.getId() == R.id.carrierCard) {
             webSocket.send("android: " + userId + ": " + carNum  + ": C");
             intent = new Intent(AlertActivity.this, CarrierActivity.class);
         }
-        if (v.getId() == R.id.followerBtn) {
+        if (v.getId() == R.id.followerCard) {
             webSocket.send("android: " + userId + ": " + carNum  + ": F");
             intent = new Intent(AlertActivity.this, FollowerActivity.class);
         }
