@@ -14,9 +14,11 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.StringRes;
 import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.chimchakae.Model.User;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -30,10 +32,6 @@ import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.iid.FirebaseInstanceId;
 
 import java.util.regex.Pattern;
-
-import androidx.annotation.NonNull;
-import androidx.annotation.StringRes;
-import androidx.appcompat.app.AppCompatActivity;
 
 
 public class LoginActivity extends AppCompatActivity {
@@ -220,8 +218,13 @@ public class LoginActivity extends AppCompatActivity {
                     // user 정보 가져오기
                     User user = messageData.getValue(User.class);
                     // 매치가 되어서 같으면 Token 정보를 바꾼다.
-                    if(userEmail.equals(user.getUserId())) {
+                    if(userEmail.equals(user.getUserId()) || auto.getString("inputId", null).equals(user.getUserId())) {
                         User updateUser = new User(user.getUserId(), deviceToken, user.getCarNum());
+                        // 차량 정보 영구 저장소에 저장
+                        SharedPreferences.Editor autoLogin = auto.edit();
+                        autoLogin.putString("inputCarNum", updateUser.getCarNum());
+                        Log.i("carNum:" , "carNum is " + updateUser.getCarNum());
+                        autoLogin.commit();
                         mDatabase.child(messageData.getKey()).removeValue();
                         mDatabase.push().setValue(updateUser);
                         mDatabase.removeEventListener(this);

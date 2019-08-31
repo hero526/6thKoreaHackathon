@@ -7,9 +7,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import java.util.concurrent.TimeUnit;
 
-import androidx.appcompat.app.AppCompatActivity;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
@@ -50,13 +51,14 @@ public class AlertActivity extends AppCompatActivity {
             }
         });
         String userId = auto.getString("inputId", null);
+        String carNum = auto.getString("inputCarNum", null);
         Intent intent = null;
         if (v.getId() == R.id.carrierBtn) {
-            webSocket.send("android: " + userId + ": C");
+            webSocket.send("android: " + userId + ": " + carNum  + ": C");
             intent = new Intent(AlertActivity.this, CarrierActivity.class);
         }
         if (v.getId() == R.id.followerBtn) {
-            webSocket.send("android: " + userId + ": F");
+            webSocket.send("android: " + userId + ": " + carNum  + ": F");
             intent = new Intent(AlertActivity.this, FollowerActivity.class);
         }
         webSocket.close(1000, "Bye");
