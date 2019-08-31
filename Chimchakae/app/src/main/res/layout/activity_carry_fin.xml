@@ -6,4 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".CarryFinActivity">
 
+    <TextView
+        android:id="@+id/DrivingFinMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="안전지역에 도착한 후 운행 종료 버튼을 눌러 주세요."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/DrivingFinBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="운행 종료"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DrivingFinMsg" />
 </androidx.constraintlayout.widget.ConstraintLayout>

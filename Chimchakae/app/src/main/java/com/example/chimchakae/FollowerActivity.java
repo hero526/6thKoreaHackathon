@@ -12,7 +12,7 @@ public class FollowerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_follower);
 
-        final TextView Msg = findViewById(R.id.DrivingNavTxt);
+        TextView Msg = findViewById(R.id.followerWaitingMsg);
 
         Msg.setText("팔로워 등록이 완료되었습니다.");
     }
