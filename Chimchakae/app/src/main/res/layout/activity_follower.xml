@@ -6,12 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".FollowerActivity">
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/followerWaitingMsg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/follower" />
+
     <TextView
         android:id="@+id/followerWaitingMsg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="follower Waiting Message"
         app:autoSizeMaxTextSize="30sp"
+        app:autoSizeMinTextSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
