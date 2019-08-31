@@ -44,7 +44,7 @@ public class AlertActivity extends AppCompatActivity {
                 .url("ws://52.78.134.52:9000/")
                 .build();
 
-        final WebSocket webSocket = client.newWebSocket(request, new WebSocketListener() {
+        WebSocket webSocket = client.newWebSocket(request, new WebSocketListener() {
             @Override
             public void onOpen(WebSocket webSocket, Response response) {
                 super.onOpen(webSocket, response);
