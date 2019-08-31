@@ -4,19 +4,20 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.chimchakae.Model.Follower;
 import com.example.chimchakae.View.ListViewAdapter;
+import com.example.chimchakae.View.ListViewItem;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
 
 public class CarrierActivity extends AppCompatActivity {
 
@@ -73,13 +74,15 @@ public class CarrierActivity extends AppCompatActivity {
         }).start();
 
 
-        //TODO: listView.setOnClickListener() 함수 짜기
-        listView.setOnClickListener(new View.OnClickListener() {
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onClick(View v) {
-                TextView followerNum = findViewById(R.id.tv_carNum);
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                ListViewItem item = (ListViewItem) parent.getItemAtPosition(position);
+
+                String followerCarNum = item.getCarNum();
                 Intent intent = new Intent(CarrierActivity.this, DrivingActivity.class);
-                intent.putExtra("followerNum", followerNum.getText());
+                intent.putExtra("followerNum",followerCarNum);
                 startActivity(intent);
             }
         });
