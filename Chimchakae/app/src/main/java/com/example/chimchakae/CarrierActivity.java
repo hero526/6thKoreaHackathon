@@ -35,7 +35,7 @@ public class CarrierActivity extends AppCompatActivity {
 
 
         adapter = new ListViewAdapter();
-
+        listView = findViewById(R.id.lv_follower);
 
 
         mFirebaseDatabase = FirebaseDatabase.getInstance();
@@ -76,7 +76,7 @@ public class CarrierActivity extends AppCompatActivity {
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            public void onItemClick(AdapterView parent, View view, int position, long id) {
 
                 ListViewItem item = (ListViewItem) parent.getItemAtPosition(position);
 
