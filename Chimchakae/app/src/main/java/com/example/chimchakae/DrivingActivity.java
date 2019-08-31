@@ -49,7 +49,7 @@ public class DrivingActivity extends AppCompatActivity {
             }
         });
         webSocket.send("carrier: " + myNum + ": " + followerNum);
-        Toast.makeText(DrivingActivity.this, "팔로워 인도 신청이 완료되었습니다. 운행 승인 알림이 뜨면 출발 해 주세요", Toast.LENGTH_LONG).show();
+        Toast.makeText(DrivingActivity.this, "팔로워 인도 신청이 완료되었습니다.\n운행 승인 알림이 뜨면 출발 해 주세요", Toast.LENGTH_LONG).show();
         Intent intent = new Intent(DrivingActivity.this, CarryFinActivity.class);
         startActivity(intent);
         webSocket.close(1000, "Bye");
